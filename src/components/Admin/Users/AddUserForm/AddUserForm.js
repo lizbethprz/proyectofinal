@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   Form,
-  Icon,
   Input,
   Select,
   Button,
@@ -77,7 +76,7 @@ function AddForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="user" />}
+              // prefix={<Icon type="user" />}
               placeholder="Nombre"
               value={userData.name}
               onChange={e => setUserData({ ...userData, name: e.target.value })}
@@ -87,7 +86,7 @@ function AddForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="user" />}
+              // prefix={<Icon type="user" />}
               placeholder="Apellidos"
               value={userData.lastname}
               onChange={e =>
@@ -102,7 +101,7 @@ function AddForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="mail" />}
+              // prefix={<Icon type="mail" />}
               placeholder="Correlo electronico"
               value={userData.email}
               onChange={e =>
@@ -130,7 +129,7 @@ function AddForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="lock" />}
+              // prefix={<Icon type="lock" />}
               type="password"
               placeholder="Contraseña"
               value={userData.password}
@@ -143,7 +142,7 @@ function AddForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="lock" />}
+              // prefix={<Icon type="lock" />}
               type="password"
               placeholder="Repetir contraseña"
               value={userData.repeatPassword}

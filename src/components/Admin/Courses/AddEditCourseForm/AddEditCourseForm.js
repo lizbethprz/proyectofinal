@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Form, Icon, Input, Button, notification } from "antd";
+import { Form, Input, Button, notification } from "antd";
 import { getAccessTokenApi } from "../../../../api/auth";
 import { addCourseApi, updateCourseApi } from "../../../../api/course";
 
@@ -87,7 +87,7 @@ function AddEditForm(props) {
     >
       <Form.Item>
         <Input
-          prefix={<Icon type="key" />}
+          // prefix={<Icon type="key" />}
           placeholder="ID del curso"
           value={courseData.idCourse}
           onChange={e =>
@@ -98,7 +98,7 @@ function AddEditForm(props) {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={<Icon type="link" />}
+          // prefix={<Icon type="link" />}
           placeholder="Url del curso"
           value={courseData.link}
           onChange={e => setCourseData({ ...courseData, link: e.target.value })}
@@ -106,7 +106,7 @@ function AddEditForm(props) {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={<Icon type="gift" />}
+          // prefix={<Icon type="gift" />}
           placeholder="Cupon de descuento"
           value={courseData.coupon}
           onChange={e =>
@@ -116,7 +116,7 @@ function AddEditForm(props) {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={<Icon type="dollar" />}
+          // prefix={<Icon type="dollar" />}
           placeholder="Precio del curso"
           value={courseData.price}
           onChange={e =>

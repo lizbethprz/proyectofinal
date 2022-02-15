@@ -3,7 +3,6 @@ import {
   Switch,
   List,
   Button,
-  Icon,
   Modal as ModalAntd,
   notification
 } from "antd";
@@ -149,10 +148,10 @@ function MenuItem(props) {
           onChange={e => activateMenu(item, e)}
         />,
         <Button type="primary" onClick={() => editMenuWebModal(item)}>
-          <Icon type="edit" />
+          {/* <Icon type="edit" /> */}
         </Button>,
         <Button type="danger" onClick={() => deleteMenu(item)}>
-          <Icon type="delete" />
+          {/* <Icon type="delete" /> */}
         </Button>
       ]}
     >

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { List, Button, Icon, Modal as ModalAntd, notification } from "antd";
+import { List, Button, Modal as ModalAntd, notification } from "antd";
 import DragSortableList from "react-drag-sortable";
 import Modal from "../../../Modal";
 import AddEditCourseForm from "../AddEditCourseForm";
@@ -150,10 +150,10 @@ function Course(props) {
     <List.Item
       actions={[
         <Button type="primary" onClick={() => editCourseModal(course)}>
-          <Icon type="edit" />
+          {/* <Icon type="edit" /> */}
         </Button>,
         <Button type="danger" onClick={() => deleteCourse(course)}>
-          <Icon type="delete" />
+          {/* <Icon type="delete" /> */}
         </Button>
       ]}
     >

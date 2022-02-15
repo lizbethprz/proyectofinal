@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Icon } from "antd";
+import { Button } from "antd";
 import AgusLogo from "../../../assets/img/png/logo-white.png";
 import { logout } from "../../../api/auth";
 
@@ -22,12 +22,12 @@ export default function MenuTop(props) {
           alt="Agustin Navarro Galdon"
         />
         <Button type="link" onClick={() => setMenuCollapsed(!menuCollapsed)}>
-          <Icon type={menuCollapsed ? "menu-unfold" : "menu-fold"} />
+          {/* <Icon type={menuCollapsed ? "menu-unfold" : "menu-fold"} /> */}
         </Button>
       </div>
       <div className="menu-top__right">
         <Button type="link" onClick={logoutUser}>
-          <Icon type="poweroff" />
+          {/* <Icon type="poweroff" /> */}
         </Button>
       </div>
     </div>

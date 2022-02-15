@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from "react";
 import {
   Avatar,
   Form,
-  Icon,
   Input,
   Select,
   Button,
@@ -162,7 +161,7 @@ function EditForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="user" />}
+              // prefix={<Icon type="user" />}
               placeholder="Nombre"
               value={userData.name}
               onChange={e => setUserData({ ...userData, name: e.target.value })}
@@ -172,7 +171,7 @@ function EditForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="user" />}
+              // prefix={<Icon type="user" />}
               placeholder="Apellidos"
               value={userData.lastname}
               onChange={e =>
@@ -187,7 +186,7 @@ function EditForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="mail" />}
+              // prefix={<Icon type="mail" />}
               placeholder="Correo electronico"
               value={userData.email}
               onChange={e =>
@@ -215,7 +214,7 @@ function EditForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="lock" />}
+              // prefix={<Icon type="lock" />}
               type="password"
               placeholder="Contraseña"
               onChange={e =>
@@ -227,7 +226,7 @@ function EditForm(props) {
         <Col span={12}>
           <Form.Item>
             <Input
-              prefix={<Icon type="lock" />}
+              // prefix={<Icon type="lock" />}
               type="password"
               placeholder="Repetir contraseña"
               onChange={e =>

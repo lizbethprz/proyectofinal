@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Icon, Input, Button, Checkbox, notification } from "antd";
+import { Form, Input, Button, Checkbox, notification } from "antd";
 import {
   emailValidation,
   minLengthValidation
@@ -110,7 +110,7 @@ export default function RegisterForm() {
     <Form className="register-form" onSubmit={register} onChange={changeForm}>
       <Form.Item>
         <Input
-          prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
+          // prefix={<Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />}
           type="email"
           name="email"
           placeholder="Correo electronico"
@@ -121,7 +121,7 @@ export default function RegisterForm() {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
+          // prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
           type="password"
           name="password"
           placeholder="Contraseña"
@@ -132,7 +132,7 @@ export default function RegisterForm() {
       </Form.Item>
       <Form.Item>
         <Input
-          prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
+          // prefix={<Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />}
           type="password"
           name="repeatPassword"
           placeholder="Repetir contraseña"
