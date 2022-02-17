@@ -11,12 +11,12 @@ export default function MainBanner() {
         <Col lg={4} />
         <Col lg={16}>
           <h2>
-            Aprende nuevas <br /> tecnologías web y móvil.
+            Crea, publica <br /> y consulta datos.
           </h2>
           <h3>
-            A través de cursos práctivos, concisos y actualizados, creados por{" "}
+            A través de publicaciones práctivos, concisos y actualizados, creados por{" "}
             <br />
-            profesionales con años de experiencia.
+            profesionales.
           </h3>
         </Col>
         <Col lg={4} />

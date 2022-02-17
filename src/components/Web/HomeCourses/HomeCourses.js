@@ -5,8 +5,6 @@ import reactJsHooks from "../../../assets/img/jpg/react-js-hooks.jpg";
 import reactNative from "../../../assets/img/jpg/react-native.jpg";
 import javaScript from "../../../assets/img/jpg/javascript-es6.jpg";
 import wordPress from "../../../assets/img/jpg/wordpress.jpg";
-import prestaShop from "../../../assets/img/jpg/prestashop-1-7.jpg";
-import cssGrid from "../../../assets/img/jpg/css-grid.jpg";
 
 import "./HomeCourses.scss";
 
@@ -14,7 +12,7 @@ export default function HomeCourses() {
   return (
     <Row className="home-courses">
       <Col lg={24} className="home-courses__title">
-        <h2>Aprende y mejora tus habilidades</h2>
+        <h2>Sitios Web relacionados e interes</h2>
       </Col>
       <Col lg={4} />
       <Col lg={16}>
@@ -22,53 +20,33 @@ export default function HomeCourses() {
           <Col md={6}>
             <CardCourse
               image={reactJsHooks}
-              title="React JS Hooks"
-              subtitle="Intermedio - React/JavaScript"
-              link="https://courses.agustinnavarrogaldon.com/react"
+              title="Google Drive"
+              subtitle="Almacenamiento gratis Google"
+              link="https://www.google.com.mx/intl/es/drive/"
             />
           </Col>
           <Col md={6}>
             <CardCourse
               image={reactNative}
-              title="React Native Expo"
-              subtitle="Intermedio - React/JavaScript"
-              link="https://courses.agustinnavarrogaldon.com/react-native-expo"
+              title="Google Classroom"
+              subtitle="Registro de clases via online"
+              link="https://classroom.google.com/h?hl=es"
             />
           </Col>
           <Col md={6}>
             <CardCourse
               image={javaScript}
-              title="JavaScript ES6"
-              subtitle="Básico - JavaScript"
-              link="https://courses.agustinnavarrogaldon.com/javascript"
+              title="Dropbox"
+              subtitle="Planes adecuados para cada usuario"
+              link="https://www.dropbox.com/es/"
             />
           </Col>
           <Col md={6}>
             <CardCourse
               image={wordPress}
-              title="WordPress"
-              subtitle="Básico - WordPress"
-              link="https://courses.agustinnavarrogaldon.com/wordpress"
-            />
-          </Col>
-        </Row>
-        <Row className="row-courses">
-          <Col md={6}>
-            <CardCourse
-              image={prestaShop}
-              title="PrestaShop 1.7"
-              subtitle="Básico - PrestaShop"
-              link="https://courses.agustinnavarrogaldon.com/prestashop"
-            />
-          </Col>
-          <Col md={6} />
-          <Col md={6} />
-          <Col md={6}>
-            <CardCourse
-              image={cssGrid}
-              title="CSS Grid"
-              subtitle="Intermedio - CSS"
-              link="https://courses.agustinnavarrogaldon.com/css-grid"
+              title="OneDrive"
+              subtitle="Almacenamiento Microsoft"
+              link="https://www.microsoft.com/es-mx/microsoft-365/onedrive/online-cloud-storage"
             />
           </Col>
         </Row>
@@ -76,7 +54,7 @@ export default function HomeCourses() {
       <Col lg={4} />
       <Col lg={24} className="home-courses__more">
         <Link to="/courses">
-          <Button>Ver más</Button>
+          <Button>Explorar</Button>
         </Link>
       </Col>
     </Row>

@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Agustín Navarro Galdon</title>
+        <title>Lizbeth Perez Curiel</title>
         <meta
           name="description"
-          content="Home | Web sobre programación"
+          content="Home | Almacenamiento de informacion"
           data-react-helmet="true"
         />
       </Helmet>

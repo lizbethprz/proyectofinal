@@ -7,10 +7,10 @@ export default function HowMyCoursesWork() {
   return (
     <Row className="how-my-courses-work">
       <Col lg={24} className="how-my-courses-work__title">
-        <h2>¿Cómo funcionan mis cursos?</h2>
+        <h2>¿Cómo funcionan el almacenamiento de datos?</h2>
         <h3>
-          Cada curso cuenta con contenido bajo la web de Udemy, activa las 24
-          horas al día los 365 días del año
+        Facil acceso a objetos de interes, cada uno de los recursos publicados 
+        podran ser visualizados por personas registras o externas al sitio.  
         </h3>
       </Col>
 
@@ -20,22 +20,22 @@ export default function HowMyCoursesWork() {
           <Col md={8}>
             <CardInfo
               icon="clock-circle"
-              title="Cursos y Clases"
-              description="Cursos de entre 10 y 30 horas y cada clase del curso con duración máxima de 15 minutos, faciles de llevar en tu día a día de aprendizaje."
+              title="Videos"
+              description="Publicacion de videos para reforzar el conocimiento."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon="key"
-              title="Acceso 24/7"
-              description="Accede a los cursos en cualquier momento, desde cualquier lugar sin importar día y hora."
+              title="Imagenes"
+              description="Ilustraciones para tener una mejor claridad de los temas que se abordan."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon="message"
-              title="Aprendizaje colaboratico"
-              description="Aprende de los demás dejando tus dudas para que profesores y compañeros te ayuden."
+              title="Links"
+              description="Links relacionados a los temas a tratar en la publicacion."
             />
           </Col>
         </Row>
@@ -43,22 +43,22 @@ export default function HowMyCoursesWork() {
           <Col md={8}>
             <CardInfo
               icon="user"
-              title="Mejora tu perfil"
-              description="Aprende y mejora tu perfil para mantenerte informado de actualizaciones."
+              title="Notas"
+              description="Publicaciones redactadas en el momento de la publicacion."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon="dollar"
-              title="Precios bajos"
-              description="Obtén el curso que necesitas por solo 9.99 y ten acceso a el por tiempo ilimitado y soporte ilimitado."
+              title="Usuarios"
+              description="Acceso para crear publicaciones."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon="check-circle"
-              title="Certificador de finalización"
-              description="Al completar tu un curso recibirás una certificación que te expedirá Udemy en PDF."
+              title="Modificaciones"
+              description="Publicacion, Modificacion y eliminacion de publicaciones."
             />
           </Col>
         </Row>

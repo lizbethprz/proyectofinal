@@ -7,10 +7,11 @@ import "./MyInfo.scss";
 export default function MyInfo() {
   return (
     <div className="my-info">
-      <img src={LogoWhite} alt="Agustín Navarro Galdon" />
+      <img src={LogoWhite} alt="Perez Curiel Lizbeth" />
       <h4>
-        Entra en el mundo del desarrollo web, disfruta creando proyectos de todo
-        tipo, deja que tú imaginación fluya y crea verdaderas maravillas!!
+      Sistema web para el control y 
+        almacenamiento 
+        de objetos de aprendizaje.
       </h4>
       <SocialLink />
     </div>

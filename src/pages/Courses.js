@@ -29,10 +29,10 @@ export default function Courses() {
   return (
     <>
       <Helmet>
-        <title>Cursos | Agustín Navarro Galdon</title>
+        <title>Cursos | Lizbeth Perez Curiel</title>
         <meta
           name="description"
-          content="Cursos | Web sobre programación de Agustín Navarro Galdon"
+          content="Almacenamiento | Publicacion y revision de objetos de aprendizaje"
           data-react-helmet="true"
         />
       </Helmet>

@@ -26,8 +26,8 @@ export default function Footer() {
             </Col>
           </Row>
           <Row className="footer__copyright">
-            <Col md={12}>© 2019 ALL RIGHTS RESERVED​</Col>
-            <Col md={12}>AGUSTÍN NAVARRO GALDON | DESARROLLADOR WEB</Col>
+            <Col md={12}>© OCTUBRE 2021</Col>
+            <Col md={12}>LIZBETH PEREZ | INSTITUTO TECNOLOGICO DE TIJUANA</Col>
           </Row>
         </Col>
         <Col md={4} />

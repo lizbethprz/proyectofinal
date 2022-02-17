@@ -11,8 +11,8 @@ export default function ReviewsCourses() {
         <Col lg={4} />
         <Col lg={16} className="reviews-courses__title">
           <h2>
-            Forma parte de los +35 mil estudiantes que estan aprendiendo con mis
-            cursos
+            Registrate para comenzar a formar parte de este sitio y ayudar
+            a mejorar el aprendizaje de alguien mas de forma segura y amena.
           </h2>
         </Col>
         <Col lg={4} />
@@ -23,52 +23,26 @@ export default function ReviewsCourses() {
           <Row className="row-cards">
             <Col md={8}>
               <CardReview
-                name="Alonso Campos"
-                subtitle="Alumno de Udemy"
+                name="Grupo ATICO34"
+                subtitle="Almacenamiento de datos y Dispositivos Data storage"
                 avatar={AvatarPersona}
-                review="Un curso excelente, el profesor explica detalladamente como funciona react native y también como hacer componente por componente, he buscado muchos cursos de react native pero ninguno me ha enseñado tanto como este, ahora estoy desarrollando mi propia aplicación sin ningún tipo de problema gracias al curso."
+                review="Proceso a través del cual se graba la información que manejamos o manejan los sistemas en el día a día. Esta información se puede grabar en soportes ópticos o electromagnéticos, para después seguir siendo accesible. Es decir, los datos son almacenados en dispositivos de almacenamiento o data storage."
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="David Ramiro"
-                subtitle="Alumno de Udemy"
+                name="Microsoft"
+                subtitle="Almacenamiento de datos"
                 avatar={AvatarPersona}
-                review="Si te gustan los cursos que profundizan en la materia, te lo recomiendo. El profesor explica de forma completa todos los conceptos necesarios para trabajar con grid. Un gran curso."
+                review="Un almacenamiento de datos es un repositorio centralizado de datos integrados procedentes de uno o varios orígenes dispares. Los almacenamientos de datos almacenan datos históricos y actuales, y se utilizan para realizar informes y análisis de los datos."
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="Valentina Rubio"
-                subtitle="Alumna de Udemy"
+                name="Drive"
+                subtitle="Google Drive"
                 avatar={AvatarPersona}
-                review="El contenido del curso es muy completo y de necesitar cualquier dato adicional el profesor está super pendiente para responderlo. Ya tengo creado mi E-commerce con WordPress y gran parte de la información necesaria la obtuve del curso."
-              />
-            </Col>
-          </Row>
-          <Row className="row-cards">
-            <Col md={8}>
-              <CardReview
-                name="Marc Pérez"
-                subtitle="Alumno de Udemy"
-                avatar={AvatarPersona}
-                review="Empecé el curso sin saber nada de React Native y creo que lo finalizo teniendo un nivel de conocimiento como para embarcarme en realizar mi primera aplicación."
-              />
-            </Col>
-            <Col md={8}>
-              <CardReview
-                name="Jesús Cruz"
-                subtitle="Alumno de Udemy"
-                avatar={AvatarPersona}
-                review="Me ha parecido un buen curso, las explicaciones muy claras y lo que enseña me ha sido muy útil para la aplicación que me habían encargado."
-              />
-            </Col>
-            <Col md={8}>
-              <CardReview
-                name="Francisco Garcia"
-                subtitle="Alumna de Udemy"
-                avatar={AvatarPersona}
-                review="Aprendes todo lo que promete el video de inicio y te da la capacidad para después crear tus propias apps. Gracias Agus por crear este curso, tenes mucho talento para explicar y se nota que te encanta hacerlo."
+                review="El usuario puede gestionar, desde cualquier dispositivo, sus documentos y datos almacenados en la nube a través de Google Drive ingresando a su casilla de correo en la que puede visualizar el paquete de aplicaciones de Google.Almacenar cualquier tipo de archivo, como fotos, videos, archivos de presentación, planillas, entre otros."
               />
             </Col>
           </Row>

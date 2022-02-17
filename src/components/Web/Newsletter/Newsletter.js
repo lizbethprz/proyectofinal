@@ -9,7 +9,7 @@ export default function Newsletter() {
 
   const onSubmit = e => {
     e.preventDefault();
-    const emailValid = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    const emailValid = /^([a-zA-Z0-9_\\.\\-])+@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     const resultValidation = emailValid.test(email);
 
     if (!resultValidation) {
@@ -50,7 +50,7 @@ export default function Newsletter() {
             htmlType="submit"
             className="login-form-button"
           >
-            ¡Me suscribo!
+            Suscribir
           </Button>
         </Form.Item>
       </Form>
